@@ -3,6 +3,9 @@ rvm:
 - 2.1
 script:
 - make build
+addons:
+  apt_packages:
+    - pandoc
 install:
 - make deps
 after_success:
