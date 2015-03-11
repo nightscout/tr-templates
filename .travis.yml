@@ -7,7 +7,7 @@ addons:
   apt_packages:
     - pandoc
 install:
-- make deps
+- make deps install
 after_success:
 - make travis-upload
 branches:
