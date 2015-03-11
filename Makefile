@@ -18,6 +18,11 @@ build:
 
 test: toggle-test-dest build toggle-dest
 
+install:
+	bundle install
+
+travis: build
+
 all: toggle-dest build
 
 clean:

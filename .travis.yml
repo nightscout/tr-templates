@@ -3,15 +3,11 @@ rvm:
 - 2.1
 script:
 - make build
-
 branches:
   only:
   - master
-
 env:
   global:
-    - TITLE="Nightscout templates"
-    - GH_REPO="nightscout/tr-templates"
-
-
-
+  - TITLE="Nightscout templates"
+  - GH_REPO="nightscout/tr-templates"
+  - secure: RZN2H3m1EcFE2h2Rg9AMEGj5maSDRkjrRroPQ4RhhmueIZK0NYetqAEcdqKmVrOtq3ppgSy/kWBmOZC3n/9Zy9mbHjyGv7717u2vacZnwWl9Sfn69vxWfb1ALYlHYWE9Uc4ft9uacVmXheJDMN87xSke3me4gac/GWGkzLK5aLc=
