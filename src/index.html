@@ -1,0 +1,56 @@
+---
+layout: default
+title: Nightscout publications
+---
+
+<header>
+  <h1>{{site.title}}</h1>
+
+  <blockquote><p>
+    Diabetes is the enemy.
+    <span class="citation">Lane</span>
+  </p></blockquote>
+
+</header>
+
+<section id="reports">
+
+  <h2>Published articles</h2>
+
+{% for post in site.posts %}
+  <dl>
+    <dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
+    <dd class="author">{{post.author}}</dd>
+
+    {% for format in site.pandoc.outputs limit:2 %}
+    {% capture extension %}{{ format | first }}{% endcapture %}
+    <dd><p><a href="{{ extension }}{{ post.url | remove:'.html' }}.{{ extension }}">{{ extension }}</a></p></dd>
+    {% endfor %}
+    <dd><p><a href="{{ post.url }}#formats">...</a></p></dd>
+
+  </dl>
+{% endfor %}
+
+</section>
+
+<section id="contact">
+
+  <h2>Contact</h2>
+
+  <ul>
+    {% for post in site.data.contact %}
+    <li>
+    </li>
+    {% endfor %}
+
+  </ul>
+</section>
+
+<footer>
+  <a href="license.html">License</a> |
+  <a href="atom.xml">ATOM Feed</a> |
+  <a href="atom_epub.xml">EPUB Feed</a> |
+  <a href="atom_torrent.xml">Torrent Feed</a> |
+  <a href="{{ site.torrent.file }}">Torrent</a> |
+  <a href="http://johnmacfarlane.net/pandoc/">jekyll</a>+<a href="http://jekyllrb.com">pandoc</a>
+</footer>

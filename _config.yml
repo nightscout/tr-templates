@@ -1,0 +1,45 @@
+markdown: pandoc
+title: "Test publications"
+foo: '--template=layouts/toc.html'
+pandoc:
+    skip: false
+    output: ./tmp
+    flags: '-N --csl=../apa.csl --bibliography=../ref.bib --smart
+            --section-divs --email-obfuscation=references'
+    site_flags: '--toc --template=layouts/toc.html'
+    outputs:
+        pdf: '-V fontsize=12pt
+                -V documentclass=article
+                -V geometry=hcentering
+                -V geometry=bindingoffset=1cm
+                -V geometry:margin=1in
+                --template ./layouts/standalone.latex
+                --latex-engine=xelatex
+                --table-of-contents
+                --include-in-header=layouts/header.tex
+                --include-before-body=layouts/license.tex'
+        epub: '-V lang=es --epub-chapter-level=2'
+        mediawiki:
+        rst:
+        latex: '-V fontsize=10pt,letter
+                  -V documentclass=article
+                  -V geometry=hcentering
+                  -V geometry=bindingoffset=1cm
+                  --latex-engine=xelatex
+                  --table-of-contents
+                  --include-in-header=layouts/header.tex
+                  --include-before-body=layouts/license.tex'
+
+destination: ./_site
+source:   ./src
+layouts:  ./layouts
+plugins:  ./_plugins
+
+exclude: [ tmp, layouts ]
+
+permalink: ":title.html"
+
+lsi: false
+
+torrent:
+  file: nightscout.torrent

@@ -1,0 +1,53 @@
+---
+layout: post
+authornot: Nightscout contributors
+title: "Nightscout Hazards Analysis"
+draft: true
+---
+
+
+
+## some hazards
+
++--------------------------+----------------+
+| Hazard                   | Mitigation     |
+|                          |                |
++--------------------------+----------------+
+| Incorrect glucose value  | special control|
+| reported on the secondary| 1              |
+| display or glucose value |                |
+| missed                   |                |
+|                          |                |
++--------------------------+----------------+
+| Treatment recommendations| special control|
+| are made based on data   | 2              |
+| presented by secondary   |                |
+| display device.          |                |
+|                          |                |
++--------------------------+----------------+
+| Individual with diabetes | special control|
+| loses self               | 3              |
+| management discipline    |                |
+|                          |                |
+|                          |                |
++--------------------------+----------------+
+
+
+
+### special controls
+
+(b) Classification. Class II (special controls). The device is exempt from the premarket
+notification procedures in subpart E of part 807 of this chapter subject to the limitations in
+§862.9. A continuous glucose monitor secondary display must comply with the following
+special controls:
+
+1. Devices being marketed must include appropriate measures to protect against
+   unauthorized access to data and unauthorized modification of data.
+2. The labeling must prominently and conspicuously display a warning that
+   states “Dosing decisions should not be made based on this device. The user
+   should follow instructions on the continuous glucose monitoring system.”
+3. The labeling for the device must include a limitation that states “This
+   device is not intended to replace self-monitoring practices advised by a
+   physician.”
+
+
