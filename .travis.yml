@@ -8,6 +8,7 @@ addons:
     - pandoc
     - texlive-xetex
     - texlive-latex-base
+    - texlive-full
     - mktorrent
 install:
 - make deps install
