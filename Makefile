@@ -23,6 +23,9 @@ install:
 
 travis: build
 
+travis-upload:
+	./build.sh
+
 all: toggle-dest build
 
 clean:
