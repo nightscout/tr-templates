@@ -19,6 +19,7 @@ build:
 test: toggle-test-dest build toggle-dest
 
 
+
 deps:
 	# sudo apt-get install cabal-install
 	travis_retry cabal install pandoc pandoc-citeproc
