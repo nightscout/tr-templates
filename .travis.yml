@@ -5,7 +5,7 @@ script:
 - make build
 addons:
   apt_packages:
-    - pandoc
+    - cabal-install
     - texlive-xetex
     - texlive-latex-base
     - texlive-full
