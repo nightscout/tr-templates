@@ -4,7 +4,7 @@ rvm:
 script:
 - make build
 install:
-- make deps 
+- make deps
 after_success:
 - make travis-upload
 branches:
@@ -15,3 +15,4 @@ env:
   - TITLE="Nightscout templates"
   - GH_REPO="nightscout/tr-templates"
   - secure: RZN2H3m1EcFE2h2Rg9AMEGj5maSDRkjrRroPQ4RhhmueIZK0NYetqAEcdqKmVrOtq3ppgSy/kWBmOZC3n/9Zy9mbHjyGv7717u2vacZnwWl9Sfn69vxWfb1ALYlHYWE9Uc4ft9uacVmXheJDMN87xSke3me4gac/GWGkzLK5aLc=
+  - secure: MXM6OjSzbgqKuoHP1lEsdUr233rzX8d6esj07jvEmi+fjChOPG5xqhhOlbcoIUG90dYz4IHrbPIVN2uSsmjVCodqhiqRuESNn4jnojW+5S7Njg+NhN4ARyb/qTB4KaUs4w2jS0e7VBLjdGuzMYyXlJ/RHqY/x1dar+mZo2wT3HA=
