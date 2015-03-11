@@ -6,6 +6,8 @@ script:
 addons:
   apt_packages:
     - pandoc
+    - texlive-xetex
+    - texlive-latex-base
 install:
 - make deps install
 after_success:
