@@ -3,6 +3,8 @@ rvm:
 - 2.1
 script:
 - make build
+install:
+- make deps 
 after_success:
 - make travis-upload
 branches:

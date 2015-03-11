@@ -18,6 +18,11 @@ build:
 
 test: toggle-test-dest build toggle-dest
 
+
+deps:
+	sudo apt-get install cabal
+	travis_retry cabal install pandoc pandoc-citeproc
+	travis_retry bundle install
 install:
 	bundle install
 
