@@ -1,6 +1,5 @@
 markdown: pandoc
-title: "Test publications"
-foo: '--template=layouts/toc.html'
+title: "Nightscout Templates"
 pandoc:
     skip: false
     output: ./tmp
