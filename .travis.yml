@@ -1,11 +1,10 @@
-language: ruby
+language: haskell
 rvm:
 - 2.1
 script:
 - make build
 addons:
   apt_packages:
-    - cabal-install
     - texlive-xetex
     - texlive-latex-base
     - texlive-full
