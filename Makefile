@@ -21,8 +21,9 @@ test: toggle-test-dest build toggle-dest
 
 deps:
 	# sudo apt-get install cabal-install
-	cabal install pandoc pandoc-citeproc
+	# cabal install pandoc pandoc-citeproc
 	# travis_retry bundle install
+	./install-travis-deps.sh
 install:
 	bundle install
 

@@ -40,5 +40,4 @@ permalink: ":title.html"
 
 lsi: false
 
-torrent:
-  file: nightscout.torrent
+# torrent: file: nightscout.torrent
