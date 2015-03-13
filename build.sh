@@ -17,8 +17,8 @@ ls $OUT
 
 )
 ls -alh
-if [[ -n $WERCKER_GIT_COMMIT ]] ; then
-  cp -rv $WERCKER_OUTPUT_DIR/build/ $OUT/
+if [[ -n $WERCKER_GIT_COMMIT && -d build ]] ; then
+  cp -rv build $OUT
 
 fi
 # bundle install
