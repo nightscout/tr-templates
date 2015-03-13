@@ -1,0 +1,30 @@
+== some hazards ==
+
+{|
+|width="37%"|Hazard
+|width="23%"|Mitigation
+|-
+|Incorrect glucose value reported on the secondary display or glucose value missed
+|special control 1
+|-
+|Treatment recommendations are made based on data presented by secondary display device.
+|special control 2
+|-
+|Individual with diabetes loses self management discipline
+|special control 3
+|}
+
+=== special controls ===
+
+<ol start="2" style="list-style-type: lower-alpha;">
+<li>Classification. Class II (special controls). The device is exempt from the premarket notification procedures in subpart E of part 807 of this chapter subject to the limitations in §862.9. A continuous glucose monitor secondary display must comply with the following special controls:</li></ol>
+
+# Devices being marketed must include appropriate measures to protect against unauthorized access to data and unauthorized modification of data.
+# The labeling must prominently and conspicuously display a warning that states “Dosing decisions should not be made based on this device. The user should follow instructions on the continuous glucose monitoring system.”
+# The labeling for the device must include a limitation that states “This device is not intended to replace self-monitoring practices advised by a physician.”
+
+<div class="references">
+
+
+
+</div>

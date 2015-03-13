@@ -1,0 +1,177 @@
+\documentclass[10pt,letter,]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+    \usepackage{xltxtra,xunicode}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[bindingoffset=1cm,hcentering]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={Ben West},
+            pdftitle={Github},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{5}
+
+\title{Github}
+\author{Ben West}
+\date{}
+%% \usepackage{quotchap} % changes style of chapter headings
+\usepackage{setspace}
+\usepackage{fancyhdr}
+
+\newcommand{\copyleft}{\reflectbox{©}}
+
+
+
+% \definecolor{grey}{cmyk}{0,0,0,0.6}
+
+%\renewcommand{\chapnumfont}{
+%    \fontsize{44}{46}
+%    \selectfont
+%    \color{grey}
+%}
+
+\pagestyle{fancy}
+\setlength{\headheight}{15.2pt}
+\fancyhead[]{}
+\fancyhead[LE]{\footnotesize{\leftmark}}
+\fancyhead[RE]{}
+
+%\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+%\renewcommand{\sectionmark}[1]{\markright{#1}{}}
+
+% Por alguna razón pandoc lo pone en 0
+\setlength{\parindent}{15pt}
+
+\begin{document}
+\maketitle
+
+    \newpage
+    \thispagestyle{empty}
+
+    \begin{flushleft}\hbox{\Large{Nightscout Foundation}}
+    This is open source.
+
+    \vfill
+    \copyleft  \the\year -- Nightscout Foundation.
+    \url{http://nightscout.info/}
+
+    \end{flushleft}
+   \newpage
+
+{
+\hypersetup{linkcolor=black}
+\setcounter{tocdepth}{3}
+\tableofcontents
+}
+\section{Github}\label{github}
+
+Github is a social network built around how git, versioning control
+software, works. The source code and development mostly happens using
+git. The github social media site allows developers to co-ordinate
+changes using git, using established ssh keys, and other secure
+credentials to govern who has write access to the source code.
+
+\subsection{Teams}\label{teams}
+
+There are teams in the github organization. These teams govern who has
+commit, or write access, to the documentation and source code.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{images/nightscout_teams.png}
+\caption{image}
+\end{figure}
+
+\subsection{Discussion and
+documentation}\label{discussion-and-documentation}
+
+Github allows discussions on per line number, commit, pull request, or
+issue basis. Combined with other use of social media, these materials
+allow constant iteration on design, and implementation.
+
+One way to visualize the data that drives the github process is through
+the waffle.io viewer
+\url{https://waffle.io/nightscout/nightscout.github.io}
+
+Anyone with a github account can participate, in discussion, creating or
+commenting on issues, or pull requests.
+
+\subsection{Issues}\label{issues}
+
+Issues have a lableling system that allow them to track feature
+requests, bug reports, as well as design discussions.
+
+\subsection{Pull requests}\label{pull-requests}
+
+Pull requests allow for review, verification, testing, and discussion of
+source code as it is prepared for adoption.
+
+\subsection{Continuous Testing}\label{continuous-testing}
+
+Projects that are using github can arrange to have Travis run tests on
+every commit. The results of the tests are seen in pull requests.
+
+\subsection{Analysis}\label{analysis}
+
+Some services such as
+\url{https://codeclimate.com/github/bewest/sgvdata} offer free analysis
+of source code for linting and common errors.
+
+Some services such as coveralls
+\url{https://coveralls.io/r/bewest/sgvdata} offers free code coverage
+analysis, to visualize which parts of the code have been exercised by
+the tests.
+\url{https://codecov.io/github/nightscout/android-uploader?ref=dev}
+
+\subsection{Releases}\label{releases}
+
+Issuing git tag for the master branch at the time of release for the new
+version creates a release page on github's site. These can be used to
+track progress of releases, which are tracked both by git hash and by
+semantic version number.
+
+\end{document}

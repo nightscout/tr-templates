@@ -1,0 +1,118 @@
+\documentclass[10pt,letter,]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+    \usepackage{xltxtra,xunicode}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[bindingoffset=1cm,hcentering]{geometry}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={Nightscout contributors},
+            pdftitle={Level of concern},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{5}
+
+\title{Level of concern}
+\author{Nightscout contributors}
+\date{}
+%% \usepackage{quotchap} % changes style of chapter headings
+\usepackage{setspace}
+\usepackage{fancyhdr}
+
+\newcommand{\copyleft}{\reflectbox{©}}
+
+
+
+% \definecolor{grey}{cmyk}{0,0,0,0.6}
+
+%\renewcommand{\chapnumfont}{
+%    \fontsize{44}{46}
+%    \selectfont
+%    \color{grey}
+%}
+
+\pagestyle{fancy}
+\setlength{\headheight}{15.2pt}
+\fancyhead[]{}
+\fancyhead[LE]{\footnotesize{\leftmark}}
+\fancyhead[RE]{}
+
+%\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+%\renewcommand{\sectionmark}[1]{\markright{#1}{}}
+
+% Por alguna razón pandoc lo pone en 0
+\setlength{\parindent}{15pt}
+
+\begin{document}
+\maketitle
+
+    \newpage
+    \thispagestyle{empty}
+
+    \begin{flushleft}\hbox{\Large{Nightscout Foundation}}
+    This is open source.
+
+    \vfill
+    \copyleft  \the\year -- Nightscout Foundation.
+    \url{http://nightscout.info/}
+
+    \end{flushleft}
+   \newpage
+
+{
+\hypersetup{linkcolor=black}
+\setcounter{tocdepth}{3}
+\tableofcontents
+}
+\section{Level of concern}\label{level-of-concern}
+
+\subsection{Description of device}\label{description-of-device}
+
+\subsection{Mitigations}\label{mitigations}
+
+\subsection{Severity}\label{severity}
+
+Software ``level of concern'' -- Estimate (in the absence of
+mitigations) of the severity of injury that a device failure or latent
+design flaw could permit or inflict, either directly or indirectly, on a
+patient or device operator: • Major: could directly result in death or
+serious injury • Moderate: could directly result in minor injury •
+Minor: unlikely to cause any injury
+
+http://www.fda.gov/downloads/MedicalDevices/DeviceRegulationandGuidance/HumanFactors/UCM290561.pdf
+
+\end{document}

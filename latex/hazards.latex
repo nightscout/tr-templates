@@ -1,0 +1,166 @@
+\documentclass[10pt,letter,]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+    \usepackage{xltxtra,xunicode}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[bindingoffset=1cm,hcentering]{geometry}
+\usepackage{longtable,booktabs}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={},
+            pdftitle={Nightscout Hazards Analysis},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{5}
+
+\title{Nightscout Hazards Analysis}
+\date{}
+%% \usepackage{quotchap} % changes style of chapter headings
+\usepackage{setspace}
+\usepackage{fancyhdr}
+
+\newcommand{\copyleft}{\reflectbox{©}}
+
+
+
+% \definecolor{grey}{cmyk}{0,0,0,0.6}
+
+%\renewcommand{\chapnumfont}{
+%    \fontsize{44}{46}
+%    \selectfont
+%    \color{grey}
+%}
+
+\pagestyle{fancy}
+\setlength{\headheight}{15.2pt}
+\fancyhead[]{}
+\fancyhead[LE]{\footnotesize{\leftmark}}
+\fancyhead[RE]{}
+
+%\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+%\renewcommand{\sectionmark}[1]{\markright{#1}{}}
+
+% Por alguna razón pandoc lo pone en 0
+\setlength{\parindent}{15pt}
+
+\begin{document}
+\maketitle
+
+    \newpage
+    \thispagestyle{empty}
+
+    \begin{flushleft}\hbox{\Large{Nightscout Foundation}}
+    This is open source.
+
+    \vfill
+    \copyleft  \the\year -- Nightscout Foundation.
+    \url{http://nightscout.info/}
+
+    \end{flushleft}
+   \newpage
+
+{
+\hypersetup{linkcolor=black}
+\setcounter{tocdepth}{3}
+\tableofcontents
+}
+\subsection{some hazards}\label{some-hazards}
+
+\begin{longtable}[c]{@{}ll@{}}
+\toprule
+\begin{minipage}[t]{0.35\columnwidth}\raggedright\strut
+Hazard
+\strut\end{minipage} &
+\begin{minipage}[t]{0.22\columnwidth}\raggedright\strut
+Mitigation
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.35\columnwidth}\raggedright\strut
+Incorrect glucose value reported on the secondary display or glucose
+value missed
+\strut\end{minipage} &
+\begin{minipage}[t]{0.22\columnwidth}\raggedright\strut
+special control 1
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.35\columnwidth}\raggedright\strut
+Treatment recommendations are made based on data presented by secondary
+display device.
+\strut\end{minipage} &
+\begin{minipage}[t]{0.22\columnwidth}\raggedright\strut
+special control 2
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.35\columnwidth}\raggedright\strut
+Individual with diabetes loses self management discipline
+\strut\end{minipage} &
+\begin{minipage}[t]{0.22\columnwidth}\raggedright\strut
+special control 3
+\strut\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\subsubsection{special controls}\label{special-controls}
+
+\begin{enumerate}
+\def\labelenumi{(\alph{enumi})}
+\setcounter{enumi}{1}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Classification. Class II (special controls). The device is exempt from
+  the premarket notification procedures in subpart E of part 807 of this
+  chapter subject to the limitations in §862.9. A continuous glucose
+  monitor secondary display must comply with the following special
+  controls:
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Devices being marketed must include appropriate measures to protect
+  against unauthorized access to data and unauthorized modification of
+  data.
+\item
+  The labeling must prominently and conspicuously display a warning that
+  states ``Dosing decisions should not be made based on this device. The
+  user should follow instructions on the continuous glucose monitoring
+  system.''
+\item
+  The labeling for the device must include a limitation that states
+  ``This device is not intended to replace self-monitoring practices
+  advised by a physician.''
+\end{enumerate}
+
+\end{document}

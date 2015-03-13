@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Nightscout Templates</title>
+ <link href="/atom.xml" rel="self"/>
+ <link href="/"/>
+ <link href="/" rel="torrent"/>
+ <updated>2015-03-13T17:21:57+00:00</updated>
+ <id>/</id>
+ <author>
+   <name>Nightscout Templates</name>
+   <!--
+   <email>endefensadelsl@listas.hipatia.net</email>
+   -->
+ </author>
+
+ 
+ <entry>
+   <title>Traceability</title>
+   <link href="/traceability.html"/>
+   <updated>2015-03-10T00:00:00+00:00</updated>
+   <id>//traceability</id>
+   <content type="html">&lt;!-- Template for pandoc --&gt;
+&lt;p&gt;Provide traceability to link the design, implementation, testing, and risk management.&lt;/p&gt;
+&lt;div class=&quot;references&quot;&gt;
+
+&lt;/div&gt;</content>
+   
+   
+   <link rel="enclosure" title="Traceability" 
+         href="/pdf//traceability.pdf"/>
+   
+   
+   <link rel="enclosure" title="Traceability" 
+         href="/epub//traceability.epub"/>
+   
+   
+   <link rel="enclosure" title="Traceability" 
+         href="/mediawiki//traceability.mediawiki"/>
+   
+   
+   <link rel="enclosure" title="Traceability" 
+         href="/rst//traceability.rst"/>
+   
+   
+   <link rel="enclosure" title="Traceability" 
+         href="/latex//traceability.latex"/>
+   
+ </entry>
+ 
+ <entry>
+   <title>Level of concern</title>
+   <link href="/level-of-concern.html"/>
+   <updated>2015-03-10T00:00:00+00:00</updated>
+   <id>//level-of-concern</id>
+   <content type="html">&lt;!-- Template for pandoc --&gt;
+&lt;nav id=&quot;TOC&quot;&gt;
+&lt;h2&gt;Contents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#level-of-concern&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1&lt;/span&gt; Level of concern&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#description-of-device&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.1&lt;/span&gt; Description of device&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#mitigations&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.2&lt;/span&gt; Mitigations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#severity&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.3&lt;/span&gt; Severity&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;section id=&quot;level-of-concern&quot; class=&quot;level1&quot;&gt;
+&lt;h1&gt;&lt;span class=&quot;header-section-number&quot;&gt;1&lt;/span&gt; Level of concern&lt;/h1&gt;
+&lt;section id=&quot;description-of-device&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.1&lt;/span&gt; Description of device&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id=&quot;mitigations&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.2&lt;/span&gt; Mitigations&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id=&quot;severity&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.3&lt;/span&gt; Severity&lt;/h2&gt;
+&lt;p&gt;Software “level of concern” – Estimate (in the absence of mitigations) of the severity of injury that a device failure or latent design flaw could permit or inflict, either directly or indirectly, on a patient or device operator: • Major: could directly result in death or serious injury • Moderate: could directly result in minor injury • Minor: unlikely to cause any injury&lt;/p&gt;
+&lt;p&gt;http://www.fda.gov/downloads/MedicalDevices/DeviceRegulationandGuidance/HumanFactors/UCM290561.pdf&lt;/p&gt;
+&lt;div class=&quot;references&quot;&gt;
+
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/section&gt;</content>
+   
+   
+   <link rel="enclosure" title="Level of concern" 
+         href="/pdf//level-of-concern.pdf"/>
+   
+   
+   <link rel="enclosure" title="Level of concern" 
+         href="/epub//level-of-concern.epub"/>
+   
+   
+   <link rel="enclosure" title="Level of concern" 
+         href="/mediawiki//level-of-concern.mediawiki"/>
+   
+   
+   <link rel="enclosure" title="Level of concern" 
+         href="/rst//level-of-concern.rst"/>
+   
+   
+   <link rel="enclosure" title="Level of concern" 
+         href="/latex//level-of-concern.latex"/>
+   
+ </entry>
+ 
+ <entry>
+   <title>Nightscout Hazards Analysis</title>
+   <link href="/hazards.html"/>
+   <updated>2015-03-05T00:00:00+00:00</updated>
+   <id>//hazards</id>
+   <content type="html">&lt;!-- Template for pandoc --&gt;
+&lt;nav id=&quot;TOC&quot;&gt;
+&lt;h2&gt;Contents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#some-hazards&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;0.1&lt;/span&gt; some hazards&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#special-controls&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;0.1.1&lt;/span&gt; special controls&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;section id=&quot;some-hazards&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;0.1&lt;/span&gt; some hazards&lt;/h2&gt;
+&lt;table&gt;
+&lt;colgroup&gt;
+&lt;col style=&quot;width: 37%&quot; /&gt;
+&lt;col style=&quot;width: 23%&quot; /&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr class=&quot;odd&quot;&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;&lt;p&gt;Hazard&lt;/p&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;&lt;p&gt;Mitigation&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;even&quot;&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;&lt;p&gt;Incorrect glucose value reported on the secondary display or glucose value missed&lt;/p&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;&lt;p&gt;special control 1&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;odd&quot;&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;&lt;p&gt;Treatment recommendations are made based on data presented by secondary display device.&lt;/p&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;&lt;p&gt;special control 2&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;even&quot;&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;&lt;p&gt;Individual with diabetes loses self management discipline&lt;/p&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;&lt;p&gt;special control 3&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;section id=&quot;special-controls&quot; class=&quot;level3&quot;&gt;
+&lt;h3&gt;&lt;span class=&quot;header-section-number&quot;&gt;0.1.1&lt;/span&gt; special controls&lt;/h3&gt;
+&lt;ol start=&quot;2&quot; type=&quot;a&quot;&gt;
+&lt;li&gt;Classification. Class II (special controls). The device is exempt from the premarket notification procedures in subpart E of part 807 of this chapter subject to the limitations in §862.9. A continuous glucose monitor secondary display must comply with the following special controls:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol type=&quot;1&quot;&gt;
+&lt;li&gt;Devices being marketed must include appropriate measures to protect against unauthorized access to data and unauthorized modification of data.&lt;/li&gt;
+&lt;li&gt;The labeling must prominently and conspicuously display a warning that states “Dosing decisions should not be made based on this device. The user should follow instructions on the continuous glucose monitoring system.”&lt;/li&gt;
+&lt;li&gt;The labeling for the device must include a limitation that states “This device is not intended to replace self-monitoring practices advised by a physician.”&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;references&quot;&gt;
+
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/section&gt;</content>
+   
+   
+   <link rel="enclosure" title="Nightscout Hazards Analysis" 
+         href="/pdf//hazards.pdf"/>
+   
+   
+   <link rel="enclosure" title="Nightscout Hazards Analysis" 
+         href="/epub//hazards.epub"/>
+   
+   
+   <link rel="enclosure" title="Nightscout Hazards Analysis" 
+         href="/mediawiki//hazards.mediawiki"/>
+   
+   
+   <link rel="enclosure" title="Nightscout Hazards Analysis" 
+         href="/rst//hazards.rst"/>
+   
+   
+   <link rel="enclosure" title="Nightscout Hazards Analysis" 
+         href="/latex//hazards.latex"/>
+   
+ </entry>
+ 
+ <entry>
+   <title>Development process</title>
+   <link href="/development-process.html"/>
+   <updated>2015-03-05T00:00:00+00:00</updated>
+   <id>//development-process</id>
+   <content type="html">&lt;!-- Template for pandoc --&gt;
+&lt;nav id=&quot;TOC&quot;&gt;
+&lt;h2&gt;Contents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#development-process&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;0.1&lt;/span&gt; Development process&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#design&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;0.1.1&lt;/span&gt; Design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#implementation&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;0.1.2&lt;/span&gt; Implementation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#validation&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;0.1.3&lt;/span&gt; Validation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#verification&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;0.1.4&lt;/span&gt; Verification&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;section id=&quot;development-process&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;0.1&lt;/span&gt; Development process&lt;/h2&gt;
+&lt;section id=&quot;design&quot; class=&quot;level3&quot;&gt;
+&lt;h3&gt;&lt;span class=&quot;header-section-number&quot;&gt;0.1.1&lt;/span&gt; Design&lt;/h3&gt;
+&lt;/section&gt;
+&lt;section id=&quot;implementation&quot; class=&quot;level3&quot;&gt;
+&lt;h3&gt;&lt;span class=&quot;header-section-number&quot;&gt;0.1.2&lt;/span&gt; Implementation&lt;/h3&gt;
+&lt;/section&gt;
+&lt;section id=&quot;validation&quot; class=&quot;level3&quot;&gt;
+&lt;h3&gt;&lt;span class=&quot;header-section-number&quot;&gt;0.1.3&lt;/span&gt; Validation&lt;/h3&gt;
+&lt;/section&gt;
+&lt;section id=&quot;verification&quot; class=&quot;level3&quot;&gt;
+&lt;h3&gt;&lt;span class=&quot;header-section-number&quot;&gt;0.1.4&lt;/span&gt; Verification&lt;/h3&gt;
+&lt;div class=&quot;references&quot;&gt;
+&lt;h3 id=&quot;distribution&quot; class=&quot;unnumbered&quot;&gt;Distribution&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/section&gt;</content>
+   
+   
+   <link rel="enclosure" title="Development process" 
+         href="/pdf//development-process.pdf"/>
+   
+   
+   <link rel="enclosure" title="Development process" 
+         href="/epub//development-process.epub"/>
+   
+   
+   <link rel="enclosure" title="Development process" 
+         href="/mediawiki//development-process.mediawiki"/>
+   
+   
+   <link rel="enclosure" title="Development process" 
+         href="/rst//development-process.rst"/>
+   
+   
+   <link rel="enclosure" title="Development process" 
+         href="/latex//development-process.latex"/>
+   
+ </entry>
+ 
+ <entry>
+   <title>Evaluation of Automatic Class III designation for: Nightscout</title>
+   <link href="/de-novo-summary.html"/>
+   <updated>2015-03-05T00:00:00+00:00</updated>
+   <id>//de-novo-summary</id>
+   <content type="html">&lt;!-- Template for pandoc --&gt;
+&lt;nav id=&quot;TOC&quot;&gt;
+&lt;h2&gt;Contents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#decision-summary&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1&lt;/span&gt; Decision Summary&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#number&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.1&lt;/span&gt; Number&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#purpose-of-submission&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.2&lt;/span&gt; Purpose of submission&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#measured&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.3&lt;/span&gt; Measured&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#type-of-test&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.4&lt;/span&gt; Type of test&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#applicant&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.5&lt;/span&gt; Applicant&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#proprietary-and-established-names&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.6&lt;/span&gt; Proprietary and Established Names&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#regulatory-information&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.7&lt;/span&gt; Regulatory Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#intended-use&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.8&lt;/span&gt; Intended Use&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#device-description&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.9&lt;/span&gt; Device Description&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#standardguidance-documents-referenced&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.10&lt;/span&gt; Standard/Guidance Documents Referenced&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#test-principle&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.11&lt;/span&gt; Test Principle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#performance-characteristics&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.12&lt;/span&gt; Performance Characteristics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#instrument-names&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.13&lt;/span&gt; Instrument Names&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#system-description&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.14&lt;/span&gt; System Description&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#other-supportive-instrument-performance-characteristics-data-not-covered-in-the-performance-characteristics-section&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.15&lt;/span&gt; Other supportive Instrument Performance Characteristics Data Not Covered In the “Performance Characteristics” Section&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#proposed-labeling&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.16&lt;/span&gt; Proposed Labeling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#identified-risks-to-health-and-required-mitigations&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.17&lt;/span&gt; Identified Risks to Health and Required Mitigations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#benefitrisk-analysis&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.18&lt;/span&gt; Benefit/Risk Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;section id=&quot;decision-summary&quot; class=&quot;level1&quot;&gt;
+&lt;h1&gt;&lt;span class=&quot;header-section-number&quot;&gt;1&lt;/span&gt; Decision Summary&lt;/h1&gt;
+&lt;section id=&quot;number&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.1&lt;/span&gt; Number&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id=&quot;purpose-of-submission&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.2&lt;/span&gt; Purpose of submission&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id=&quot;measured&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.3&lt;/span&gt; Measured&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id=&quot;type-of-test&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.4&lt;/span&gt; Type of test&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id=&quot;applicant&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.5&lt;/span&gt; Applicant&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id=&quot;proprietary-and-established-names&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.6&lt;/span&gt; Proprietary and Established Names&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id=&quot;regulatory-information&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.7&lt;/span&gt; Regulatory Information&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id=&quot;intended-use&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.8&lt;/span&gt; Intended Use&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id=&quot;device-description&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.9&lt;/span&gt; Device Description&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id=&quot;standardguidance-documents-referenced&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.10&lt;/span&gt; Standard/Guidance Documents Referenced&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id=&quot;test-principle&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.11&lt;/span&gt; Test Principle&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id=&quot;performance-characteristics&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.12&lt;/span&gt; Performance Characteristics&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id=&quot;instrument-names&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.13&lt;/span&gt; Instrument Names&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id=&quot;system-description&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.14&lt;/span&gt; System Description&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id=&quot;other-supportive-instrument-performance-characteristics-data-not-covered-in-the-performance-characteristics-section&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.15&lt;/span&gt; Other supportive Instrument Performance Characteristics Data Not Covered In the “Performance Characteristics” Section&lt;/h2&gt;
+&lt;p&gt;[Performance Characteristics][#performance-characteristics]&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&quot;proposed-labeling&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.16&lt;/span&gt; Proposed Labeling&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id=&quot;identified-risks-to-health-and-required-mitigations&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.17&lt;/span&gt; Identified Risks to Health and Required Mitigations&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id=&quot;benefitrisk-analysis&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.18&lt;/span&gt; Benefit/Risk Analysis&lt;/h2&gt;
+&lt;div class=&quot;references&quot;&gt;
+&lt;h2 id=&quot;conclusion&quot; class=&quot;unnumbered&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/section&gt;</content>
+   
+   
+   <link rel="enclosure" title="Evaluation of Automatic Class III designation for: Nightscout" 
+         href="/pdf//de-novo-summary.pdf"/>
+   
+   
+   <link rel="enclosure" title="Evaluation of Automatic Class III designation for: Nightscout" 
+         href="/epub//de-novo-summary.epub"/>
+   
+   
+   <link rel="enclosure" title="Evaluation of Automatic Class III designation for: Nightscout" 
+         href="/mediawiki//de-novo-summary.mediawiki"/>
+   
+   
+   <link rel="enclosure" title="Evaluation of Automatic Class III designation for: Nightscout" 
+         href="/rst//de-novo-summary.rst"/>
+   
+   
+   <link rel="enclosure" title="Evaluation of Automatic Class III designation for: Nightscout" 
+         href="/latex//de-novo-summary.latex"/>
+   
+ </entry>
+ 
+ <entry>
+   <title>Github</title>
+   <link href="/github.html"/>
+   <updated>2015-03-03T00:00:00+00:00</updated>
+   <id>//github</id>
+   <content type="html">&lt;!-- Template for pandoc --&gt;
+&lt;nav id=&quot;TOC&quot;&gt;
+&lt;h2&gt;Contents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#github&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1&lt;/span&gt; Github&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#teams&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.1&lt;/span&gt; Teams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#discussion-and-documentation&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.2&lt;/span&gt; Discussion and documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#issues&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.3&lt;/span&gt; Issues&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#pull-requests&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.4&lt;/span&gt; Pull requests&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#continuous-testing&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.5&lt;/span&gt; Continuous Testing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#analysis&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.6&lt;/span&gt; Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#releases&quot;&gt;&lt;span class=&quot;toc-section-number&quot;&gt;1.7&lt;/span&gt; Releases&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;section id=&quot;github&quot; class=&quot;level1&quot;&gt;
+&lt;h1&gt;&lt;span class=&quot;header-section-number&quot;&gt;1&lt;/span&gt; Github&lt;/h1&gt;
+&lt;p&gt;Github is a social network built around how git, versioning control software, works. The source code and development mostly happens using git. The github social media site allows developers to co-ordinate changes using git, using established ssh keys, and other secure credentials to govern who has write access to the source code.&lt;/p&gt;
+&lt;section id=&quot;teams&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.1&lt;/span&gt; Teams&lt;/h2&gt;
+&lt;p&gt;There are teams in the github organization. These teams govern who has commit, or write access, to the documentation and source code.&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&quot;images/nightscout_teams.png&quot; alt=&quot;image&quot; /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/section&gt;
+&lt;section id=&quot;discussion-and-documentation&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.2&lt;/span&gt; Discussion and documentation&lt;/h2&gt;
+&lt;p&gt;Github allows discussions on per line number, commit, pull request, or issue basis. Combined with other use of social media, these materials allow constant iteration on design, and implementation.&lt;/p&gt;
+&lt;p&gt;One way to visualize the data that drives the github process is through the waffle.io viewer &lt;a href=&quot;https://waffle.io/nightscout/nightscout.github.io&quot; class=&quot;uri&quot;&gt;https://waffle.io/nightscout/nightscout.github.io&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Anyone with a github account can participate, in discussion, creating or commenting on issues, or pull requests.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&quot;issues&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.3&lt;/span&gt; Issues&lt;/h2&gt;
+&lt;p&gt;Issues have a lableling system that allow them to track feature requests, bug reports, as well as design discussions.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&quot;pull-requests&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.4&lt;/span&gt; Pull requests&lt;/h2&gt;
+&lt;p&gt;Pull requests allow for review, verification, testing, and discussion of source code as it is prepared for adoption.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&quot;continuous-testing&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.5&lt;/span&gt; Continuous Testing&lt;/h2&gt;
+&lt;p&gt;Projects that are using github can arrange to have Travis run tests on every commit. The results of the tests are seen in pull requests.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&quot;analysis&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.6&lt;/span&gt; Analysis&lt;/h2&gt;
+&lt;p&gt;Some services such as &lt;a href=&quot;https://codeclimate.com/github/bewest/sgvdata&quot; class=&quot;uri&quot;&gt;https://codeclimate.com/github/bewest/sgvdata&lt;/a&gt; offer free analysis of source code for linting and common errors.&lt;/p&gt;
+&lt;p&gt;Some services such as coveralls &lt;a href=&quot;https://coveralls.io/r/bewest/sgvdata&quot; class=&quot;uri&quot;&gt;https://coveralls.io/r/bewest/sgvdata&lt;/a&gt; offers free code coverage analysis, to visualize which parts of the code have been exercised by the tests. &lt;a href=&quot;https://codecov.io/github/nightscout/android-uploader?ref=dev&quot; class=&quot;uri&quot;&gt;https://codecov.io/github/nightscout/android-uploader?ref=dev&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&quot;releases&quot; class=&quot;level2&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;header-section-number&quot;&gt;1.7&lt;/span&gt; Releases&lt;/h2&gt;
+&lt;p&gt;Issuing git tag for the master branch at the time of release for the new version creates a release page on github’s site. These can be used to track progress of releases, which are tracked both by git hash and by semantic version number.&lt;/p&gt;
+&lt;div class=&quot;references&quot;&gt;
+
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/section&gt;</content>
+   
+   
+   <link rel="enclosure" title="Github" 
+         href="/pdf//github.pdf"/>
+   
+   
+   <link rel="enclosure" title="Github" 
+         href="/epub//github.epub"/>
+   
+   
+   <link rel="enclosure" title="Github" 
+         href="/mediawiki//github.mediawiki"/>
+   
+   
+   <link rel="enclosure" title="Github" 
+         href="/rst//github.rst"/>
+   
+   
+   <link rel="enclosure" title="Github" 
+         href="/latex//github.latex"/>
+   
+ </entry>
+ 
+
+</feed>
