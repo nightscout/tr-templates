@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Nightscout Templates</title>
- <link href="/atom.xml" rel="self"/>
- <link href="/"/>
- <link href="/" rel="torrent"/>
- <updated>2015-03-13T17:21:57+00:00</updated>
- <id>/</id>
+ <link href="http://nightscout.github.io/tr-templates//atom.xml" rel="self"/>
+ <link href="http://nightscout.github.io/tr-templates//"/>
+ <link href="http://nightscout.github.io/tr-templates//" rel="torrent"/>
+ <updated>2015-03-13T18:04:09+00:00</updated>
+ <id>http://nightscout.github.io/tr-templates//</id>
  <author>
    <name>Nightscout Templates</name>
    <!--
@@ -17,9 +17,9 @@
  
  <entry>
    <title>Traceability</title>
-   <link href="/traceability.html"/>
+   <link href="http://nightscout.github.io/tr-templates//traceability.html"/>
    <updated>2015-03-10T00:00:00+00:00</updated>
-   <id>//traceability</id>
+   <id>http://nightscout.github.io/tr-templates///traceability</id>
    <content type="html">&lt;!-- Template for pandoc --&gt;
 &lt;p&gt;Provide traceability to link the design, implementation, testing, and risk management.&lt;/p&gt;
 &lt;div class=&quot;references&quot;&gt;
@@ -28,31 +28,31 @@
    
    
    <link rel="enclosure" title="Traceability" 
-         href="/pdf//traceability.pdf"/>
+         href="http://nightscout.github.io/tr-templates//pdf//traceability.pdf"/>
    
    
    <link rel="enclosure" title="Traceability" 
-         href="/epub//traceability.epub"/>
+         href="http://nightscout.github.io/tr-templates//epub//traceability.epub"/>
    
    
    <link rel="enclosure" title="Traceability" 
-         href="/mediawiki//traceability.mediawiki"/>
+         href="http://nightscout.github.io/tr-templates//mediawiki//traceability.mediawiki"/>
    
    
    <link rel="enclosure" title="Traceability" 
-         href="/rst//traceability.rst"/>
+         href="http://nightscout.github.io/tr-templates//rst//traceability.rst"/>
    
    
    <link rel="enclosure" title="Traceability" 
-         href="/latex//traceability.latex"/>
+         href="http://nightscout.github.io/tr-templates//latex//traceability.latex"/>
    
  </entry>
  
  <entry>
    <title>Level of concern</title>
-   <link href="/level-of-concern.html"/>
+   <link href="http://nightscout.github.io/tr-templates//level-of-concern.html"/>
    <updated>2015-03-10T00:00:00+00:00</updated>
-   <id>//level-of-concern</id>
+   <id>http://nightscout.github.io/tr-templates///level-of-concern</id>
    <content type="html">&lt;!-- Template for pandoc --&gt;
 &lt;nav id=&quot;TOC&quot;&gt;
 &lt;h2&gt;Contents&lt;/h2&gt;
@@ -84,31 +84,31 @@
    
    
    <link rel="enclosure" title="Level of concern" 
-         href="/pdf//level-of-concern.pdf"/>
+         href="http://nightscout.github.io/tr-templates//pdf//level-of-concern.pdf"/>
    
    
    <link rel="enclosure" title="Level of concern" 
-         href="/epub//level-of-concern.epub"/>
+         href="http://nightscout.github.io/tr-templates//epub//level-of-concern.epub"/>
    
    
    <link rel="enclosure" title="Level of concern" 
-         href="/mediawiki//level-of-concern.mediawiki"/>
+         href="http://nightscout.github.io/tr-templates//mediawiki//level-of-concern.mediawiki"/>
    
    
    <link rel="enclosure" title="Level of concern" 
-         href="/rst//level-of-concern.rst"/>
+         href="http://nightscout.github.io/tr-templates//rst//level-of-concern.rst"/>
    
    
    <link rel="enclosure" title="Level of concern" 
-         href="/latex//level-of-concern.latex"/>
+         href="http://nightscout.github.io/tr-templates//latex//level-of-concern.latex"/>
    
  </entry>
  
  <entry>
    <title>Nightscout Hazards Analysis</title>
-   <link href="/hazards.html"/>
+   <link href="http://nightscout.github.io/tr-templates//hazards.html"/>
    <updated>2015-03-05T00:00:00+00:00</updated>
-   <id>//hazards</id>
+   <id>http://nightscout.github.io/tr-templates///hazards</id>
    <content type="html">&lt;!-- Template for pandoc --&gt;
 &lt;nav id=&quot;TOC&quot;&gt;
 &lt;h2&gt;Contents&lt;/h2&gt;
@@ -162,31 +162,31 @@
    
    
    <link rel="enclosure" title="Nightscout Hazards Analysis" 
-         href="/pdf//hazards.pdf"/>
+         href="http://nightscout.github.io/tr-templates//pdf//hazards.pdf"/>
    
    
    <link rel="enclosure" title="Nightscout Hazards Analysis" 
-         href="/epub//hazards.epub"/>
+         href="http://nightscout.github.io/tr-templates//epub//hazards.epub"/>
    
    
    <link rel="enclosure" title="Nightscout Hazards Analysis" 
-         href="/mediawiki//hazards.mediawiki"/>
+         href="http://nightscout.github.io/tr-templates//mediawiki//hazards.mediawiki"/>
    
    
    <link rel="enclosure" title="Nightscout Hazards Analysis" 
-         href="/rst//hazards.rst"/>
+         href="http://nightscout.github.io/tr-templates//rst//hazards.rst"/>
    
    
    <link rel="enclosure" title="Nightscout Hazards Analysis" 
-         href="/latex//hazards.latex"/>
+         href="http://nightscout.github.io/tr-templates//latex//hazards.latex"/>
    
  </entry>
  
  <entry>
    <title>Development process</title>
-   <link href="/development-process.html"/>
+   <link href="http://nightscout.github.io/tr-templates//development-process.html"/>
    <updated>2015-03-05T00:00:00+00:00</updated>
-   <id>//development-process</id>
+   <id>http://nightscout.github.io/tr-templates///development-process</id>
    <content type="html">&lt;!-- Template for pandoc --&gt;
 &lt;nav id=&quot;TOC&quot;&gt;
 &lt;h2&gt;Contents&lt;/h2&gt;
@@ -220,31 +220,31 @@
    
    
    <link rel="enclosure" title="Development process" 
-         href="/pdf//development-process.pdf"/>
+         href="http://nightscout.github.io/tr-templates//pdf//development-process.pdf"/>
    
    
    <link rel="enclosure" title="Development process" 
-         href="/epub//development-process.epub"/>
+         href="http://nightscout.github.io/tr-templates//epub//development-process.epub"/>
    
    
    <link rel="enclosure" title="Development process" 
-         href="/mediawiki//development-process.mediawiki"/>
+         href="http://nightscout.github.io/tr-templates//mediawiki//development-process.mediawiki"/>
    
    
    <link rel="enclosure" title="Development process" 
-         href="/rst//development-process.rst"/>
+         href="http://nightscout.github.io/tr-templates//rst//development-process.rst"/>
    
    
    <link rel="enclosure" title="Development process" 
-         href="/latex//development-process.latex"/>
+         href="http://nightscout.github.io/tr-templates//latex//development-process.latex"/>
    
  </entry>
  
  <entry>
    <title>Evaluation of Automatic Class III designation for: Nightscout</title>
-   <link href="/de-novo-summary.html"/>
+   <link href="http://nightscout.github.io/tr-templates//de-novo-summary.html"/>
    <updated>2015-03-05T00:00:00+00:00</updated>
-   <id>//de-novo-summary</id>
+   <id>http://nightscout.github.io/tr-templates///de-novo-summary</id>
    <content type="html">&lt;!-- Template for pandoc --&gt;
 &lt;nav id=&quot;TOC&quot;&gt;
 &lt;h2&gt;Contents&lt;/h2&gt;
@@ -335,31 +335,31 @@
    
    
    <link rel="enclosure" title="Evaluation of Automatic Class III designation for: Nightscout" 
-         href="/pdf//de-novo-summary.pdf"/>
+         href="http://nightscout.github.io/tr-templates//pdf//de-novo-summary.pdf"/>
    
    
    <link rel="enclosure" title="Evaluation of Automatic Class III designation for: Nightscout" 
-         href="/epub//de-novo-summary.epub"/>
+         href="http://nightscout.github.io/tr-templates//epub//de-novo-summary.epub"/>
    
    
    <link rel="enclosure" title="Evaluation of Automatic Class III designation for: Nightscout" 
-         href="/mediawiki//de-novo-summary.mediawiki"/>
+         href="http://nightscout.github.io/tr-templates//mediawiki//de-novo-summary.mediawiki"/>
    
    
    <link rel="enclosure" title="Evaluation of Automatic Class III designation for: Nightscout" 
-         href="/rst//de-novo-summary.rst"/>
+         href="http://nightscout.github.io/tr-templates//rst//de-novo-summary.rst"/>
    
    
    <link rel="enclosure" title="Evaluation of Automatic Class III designation for: Nightscout" 
-         href="/latex//de-novo-summary.latex"/>
+         href="http://nightscout.github.io/tr-templates//latex//de-novo-summary.latex"/>
    
  </entry>
  
  <entry>
    <title>Github</title>
-   <link href="/github.html"/>
+   <link href="http://nightscout.github.io/tr-templates//github.html"/>
    <updated>2015-03-03T00:00:00+00:00</updated>
-   <id>//github</id>
+   <id>http://nightscout.github.io/tr-templates///github</id>
    <content type="html">&lt;!-- Template for pandoc --&gt;
 &lt;nav id=&quot;TOC&quot;&gt;
 &lt;h2&gt;Contents&lt;/h2&gt;
@@ -419,23 +419,23 @@
    
    
    <link rel="enclosure" title="Github" 
-         href="/pdf//github.pdf"/>
+         href="http://nightscout.github.io/tr-templates//pdf//github.pdf"/>
    
    
    <link rel="enclosure" title="Github" 
-         href="/epub//github.epub"/>
+         href="http://nightscout.github.io/tr-templates//epub//github.epub"/>
    
    
    <link rel="enclosure" title="Github" 
-         href="/mediawiki//github.mediawiki"/>
+         href="http://nightscout.github.io/tr-templates//mediawiki//github.mediawiki"/>
    
    
    <link rel="enclosure" title="Github" 
-         href="/rst//github.rst"/>
+         href="http://nightscout.github.io/tr-templates//rst//github.rst"/>
    
    
    <link rel="enclosure" title="Github" 
-         href="/latex//github.latex"/>
+         href="http://nightscout.github.io/tr-templates//latex//github.latex"/>
    
  </entry>
  

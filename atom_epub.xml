@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Nightscout Templates</title>
- <link href="/atom.xml" rel="self"/>
- <link href="/"/>
- <link href="/" rel="torrent"/>
- <updated>2015-03-13T17:21:57+00:00</updated>
- <id>/</id>
+ <link href="http://nightscout.github.io/tr-templates//atom.xml" rel="self"/>
+ <link href="http://nightscout.github.io/tr-templates//"/>
+ <link href="http://nightscout.github.io/tr-templates//" rel="torrent"/>
+ <updated>2015-03-13T18:04:09+00:00</updated>
+ <id>http://nightscout.github.io/tr-templates//</id>
  <author>
    <name>Nightscout Templates</name>
    <!--
@@ -17,62 +17,62 @@
  
  <entry>
    <title>Traceability</title>
-   <link href="/traceability.html"/>
+   <link href="http://nightscout.github.io/tr-templates//traceability.html"/>
    <updated>2015-03-10T00:00:00+00:00</updated>
-   <id>/traceability</id>
+   <id>http://nightscout.github.io/tr-templates//traceability</id>
    <link rel="enclosure" title="Traceability" 
          type="application/epub+zip"
-         href="/epub//traceability.epub"/>
+         href="http://nightscout.github.io/tr-templates//epub//traceability.epub"/>
  </entry>
  
  <entry>
    <title>Level of concern</title>
-   <link href="/level-of-concern.html"/>
+   <link href="http://nightscout.github.io/tr-templates//level-of-concern.html"/>
    <updated>2015-03-10T00:00:00+00:00</updated>
-   <id>/level-of-concern</id>
+   <id>http://nightscout.github.io/tr-templates//level-of-concern</id>
    <link rel="enclosure" title="Level of concern" 
          type="application/epub+zip"
-         href="/epub//level-of-concern.epub"/>
+         href="http://nightscout.github.io/tr-templates//epub//level-of-concern.epub"/>
  </entry>
  
  <entry>
    <title>Nightscout Hazards Analysis</title>
-   <link href="/hazards.html"/>
+   <link href="http://nightscout.github.io/tr-templates//hazards.html"/>
    <updated>2015-03-05T00:00:00+00:00</updated>
-   <id>/hazards</id>
+   <id>http://nightscout.github.io/tr-templates//hazards</id>
    <link rel="enclosure" title="Nightscout Hazards Analysis" 
          type="application/epub+zip"
-         href="/epub//hazards.epub"/>
+         href="http://nightscout.github.io/tr-templates//epub//hazards.epub"/>
  </entry>
  
  <entry>
    <title>Development process</title>
-   <link href="/development-process.html"/>
+   <link href="http://nightscout.github.io/tr-templates//development-process.html"/>
    <updated>2015-03-05T00:00:00+00:00</updated>
-   <id>/development-process</id>
+   <id>http://nightscout.github.io/tr-templates//development-process</id>
    <link rel="enclosure" title="Development process" 
          type="application/epub+zip"
-         href="/epub//development-process.epub"/>
+         href="http://nightscout.github.io/tr-templates//epub//development-process.epub"/>
  </entry>
  
  <entry>
    <title>Evaluation of Automatic Class III designation for: Nightscout</title>
-   <link href="/de-novo-summary.html"/>
+   <link href="http://nightscout.github.io/tr-templates//de-novo-summary.html"/>
    <updated>2015-03-05T00:00:00+00:00</updated>
-   <id>/de-novo-summary</id>
+   <id>http://nightscout.github.io/tr-templates//de-novo-summary</id>
    <link rel="enclosure" title="Evaluation of Automatic Class III designation for: Nightscout" 
          type="application/epub+zip"
-         href="/epub//de-novo-summary.epub"/>
+         href="http://nightscout.github.io/tr-templates//epub//de-novo-summary.epub"/>
  </entry>
  
  <entry>
    <title>Github</title>
-   <link href="/github.html"/>
+   <link href="http://nightscout.github.io/tr-templates//github.html"/>
    <updated>2015-03-03T00:00:00+00:00</updated>
-   <id>/github</id>
+   <id>http://nightscout.github.io/tr-templates//github</id>
    <link rel="enclosure" title="Github" 
          type="application/epub+zip"
-         href="/epub//github.epub"/>
+         href="http://nightscout.github.io/tr-templates//epub//github.epub"/>
  </entry>
  
 
