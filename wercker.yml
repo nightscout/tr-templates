@@ -10,7 +10,6 @@ build:
             export
             whoami
             ls -alh $HOME
-            sudo gem install bundle
             make install
             make build
             make travis-upload
