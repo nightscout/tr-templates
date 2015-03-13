@@ -1,14 +1,12 @@
 #! /bin/bash -eu
 
-echo "HELLO WORLD"
 OUT=${OUT-'_site/'}
 rm -Rf $OUT
 # mkdir $OUT
-echo "HELLO WORLD 1"
 export GIT_EMAIL=$GIT_EMAIL
 export GIT_USER=$GIT_USER
 # echo $FOO $BAR
-GIT_REMOTE=$(git config remote.origin.url)
+# GIT_REMOTE=$(git config remote.origin.url)
 export NEW_REMOTE="https://${GH_TOKEN}@github.com/${GH_REPO}.git"
 ( git clone -q -b gh-pages "$NEW_REMOTE" $OUT ) 2>&1 > /dev/null
 ls $OUT
@@ -20,7 +18,6 @@ ls $OUT
 )
 ls -alh
 if [[ -n $WERCKER_GIT_COMMIT ]] ;
-  mkdir -p $OUT
   cp -rv $WERCKER_OUTPUT_DIR/build $OUT
 
 fi
