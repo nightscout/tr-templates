@@ -1,6 +1,6 @@
 
 
-box: bewest/wercker-jekyll-pandoc-plugin-box
+box: bewest/jekyll-pandoc-plugin-box@0.0.1
 
 build:
   steps:
