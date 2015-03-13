@@ -16,8 +16,8 @@ ls $OUT
   ls
 
 )
-echo $PATH
-pwd
+ls -alh
+bundle install
 make build
 msg="build from $(git rev-parse HEAD)"
 (
