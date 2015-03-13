@@ -4,10 +4,10 @@ box: bewest/jekyll-pandoc-plugin-box@0.0.1
 
 build:
   steps:
-    - script:
-      name: "make install and build"
-      code: |-
-        export
-        make install
-        make build
-        make travis-upload
+      - script:
+          name: "make install and build"
+          code: |-
+            export
+            make install
+            make build
+            make travis-upload
