@@ -9,11 +9,11 @@ build:
           code: |-
             ls -alh $HOME
             make install
-            make build
+            make wercker-build
 
 deploy:
   steps:
       - script:
           name: "push to gh-pages"
           code: |-
-            make travis-upload
+            make wercker-deploy

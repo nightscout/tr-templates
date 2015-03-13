@@ -1,6 +1,6 @@
 #! /bin/bash -eu
 
-OUT=_site/
+OUT=${OUT-'_site/'}
 rm -Rf $OUT
 # mkdir $OUT
 export GIT_EMAIL=$GIT_EMAIL
@@ -17,8 +17,13 @@ ls $OUT
 
 )
 ls -alh
-bundle install
-make gh-build
+if [[ -n $WERCKER_GIT_COMMIT ]] ;
+  mkdir -p $OUT
+  cp -r $WERCKER_OUTPUT_DIR/build $OUT
+
+fi
+# bundle install
+# make gh-build
 msg="build from $(git rev-parse HEAD)"
 (
   cd $OUT;

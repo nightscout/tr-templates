@@ -15,6 +15,15 @@ toggle-dest:
 	# sed "s,^destination:.*,destination: /srv/http/endefensadelsl.org," \
 		  # -i _config.yml
 
+wercker-build:
+	sed "s,^url:.*,url: ${SITE_URL}," \
+		  -i _config.yml
+	mkdir -p ${WERCKER_OUTPUT_DIR}/build
+	bundle exec jekyll build --destination ${WERCKER_OUTPUT_DIR}/build
+	ls -alh ${WERCKER_OUTPUT_DIR}/build
+
+wercker-deploy:
+	./build.sh
 
 gh-build:
 	sed "s,^url:.*,url: ${SITE_URL}," \
