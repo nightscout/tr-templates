@@ -1,8 +1,10 @@
 #! /bin/bash -eu
 
+echo "HELLO WORLD"
 OUT=${OUT-'_site/'}
 rm -Rf $OUT
 # mkdir $OUT
+echo "HELLO WORLD 1"
 export GIT_EMAIL=$GIT_EMAIL
 export GIT_USER=$GIT_USER
 # echo $FOO $BAR
