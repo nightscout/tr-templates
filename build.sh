@@ -16,6 +16,8 @@ ls $OUT
   ls
 
 )
+echo $PATH
+pwd
 make build
 msg="build from $(git rev-parse HEAD)"
 (
