@@ -5,6 +5,8 @@
 src_tapas = $(wildcard src/images/tapas/*.svg)
 out_tapas = $(patsubst %.svg,%.tif,$(src_tapas))
 
+SITE_URL=http://nightscout.github.io/tr-templates/
+
 toggle-test-dest:
 	# sed "s,^destination:.*,destination: /srv/http/test.endefensadelsl.org," \
 		  # -i _config.yml
@@ -15,7 +17,9 @@ toggle-dest:
 
 
 gh-build:
-	bundle exec jekyll build --baseurl http://nightscout.github.io/tr-templates/
+	sed "s,^url:.*,url: ${SITE_URL}," \
+		  -i _config.yml
+	bundle exec jekyll build
 
 build:
 	bundle exec jekyll build

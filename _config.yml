@@ -1,5 +1,6 @@
 markdown: pandoc
 title: "Nightscout Templates"
+url:
 pandoc:
     skip: false
     output: ./tmp
