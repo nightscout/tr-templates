@@ -13,6 +13,10 @@ toggle-dest:
 	# sed "s,^destination:.*,destination: /srv/http/endefensadelsl.org," \
 		  # -i _config.yml
 
+
+gh-build:
+	bundle exec jekyll build --baseurl http://nightscout.github.io/tr-templates/
+
 build:
 	bundle exec jekyll build
 

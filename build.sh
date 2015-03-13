@@ -18,7 +18,7 @@ ls $OUT
 )
 ls -alh
 bundle install
-make build
+make gh-build
 msg="build from $(git rev-parse HEAD)"
 (
   cd $OUT;
