@@ -7,9 +7,13 @@ build:
       - script:
           name: "make install and build"
           code: |-
-            export
-            whoami
             ls -alh $HOME
             make install
             make build
+
+deploy:
+  steps:
+      - script:
+          name: "push to gh-pages"
+          code: |-
             make travis-upload
