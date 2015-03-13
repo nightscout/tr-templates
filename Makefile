@@ -20,6 +20,8 @@ wercker-build:
 		  -i _config.yml
 	mkdir -p ${WERCKER_OUTPUT_DIR}/build
 	bundle exec jekyll build --destination ${WERCKER_OUTPUT_DIR}/build
+	cp Makefile ${WERCKER_OUTPUT_DIR}
+	cp build.sh ${WERCKER_OUTPUT_DIR}
 	ls -alh ${WERCKER_OUTPUT_DIR}/build
 
 wercker-deploy:
