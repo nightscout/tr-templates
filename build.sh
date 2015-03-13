@@ -27,7 +27,7 @@ msg="build from $(git rev-parse HEAD)"
   git config --local user.email "$GIT_EMAIL"
   git config --local user.name "$GIT_USER"
   git add .
-  git add .travis.yml
+  # git add .travis.yml
   git add .nojekyll
   git status
   git commit -avm "$msg"
