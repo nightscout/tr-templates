@@ -4,7 +4,7 @@ OUT=_site/
 rm -Rf $OUT
 # mkdir $OUT
 export GIT_EMAIL=$GIT_EMAIL
-export GIT_NAME=$GIT_NAME
+export GIT_USER=$GIT_USER
 echo $FOO $BAR
 GIT_REMOTE=$(git config remote.origin.url)
 export NEW_REMOTE="https://${GH_TOKEN}@github.com/${GH_REPO}.git"
@@ -23,7 +23,7 @@ msg="build from $(git rev-parse HEAD)"
   # cp ../CNAME CNAME
   touch .nojekyll
   git config --local user.email "$GIT_EMAIL"
-  git config --local user.name "$GIT_NAME"
+  git config --local user.name "$GIT_USER"
   git add .
   git add .travis.yml
   git add .nojekyll
