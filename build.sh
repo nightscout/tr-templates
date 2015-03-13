@@ -32,7 +32,7 @@ msg="build from $(git rev-parse HEAD)"
   git status
   git commit -avm "$msg"
   # gh-pages uses master branch on user/org repos
-  ( git push -q origin master:gh-pages
+  ( git push -q origin gh-pages
   ) 2>&1 > /dev/null
 
 )
