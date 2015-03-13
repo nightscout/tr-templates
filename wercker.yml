@@ -1,0 +1,9 @@
+
+
+box: bewest/wercker-jekyll-pandoc-plugin-box
+
+build:
+  steps:
+    - make install
+    - make build
+    - make travis-upload
