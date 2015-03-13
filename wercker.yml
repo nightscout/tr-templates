@@ -10,10 +10,4 @@ build:
         export
         make install
         make build
-deploy:
-  steps:
-    - script:
-      name: "make travis-upload"
-      code: |-
-        export
         make travis-upload
