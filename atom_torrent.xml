@@ -5,7 +5,7 @@
  <title>Nightscout Templates</title>
  <link href="http://nightscout.github.io/tr-templates//atom.xml" rel="self"/>
  <link href="http://nightscout.github.io/tr-templates//"/>
- <updated>2015-03-13T19:52:36+00:00</updated>
+ <updated>2015-03-14T19:04:24+00:00</updated>
  <id>http://nightscout.github.io/tr-templates//</id>
  <author>
    <name>Nightscout Templates</name>
@@ -17,8 +17,8 @@
  <entry>
    <title>Nightscout Templates</title>
    <link href="http://nightscout.github.io/tr-templates//"/>
-   <updated>2015-03-13T19:52:36+00:00</updated>
-   <id>http://nightscout.github.io/tr-templates//?2015-03-13T19:52:36+00:00</id>
+   <updated>2015-03-14T19:04:24+00:00</updated>
+   <id>http://nightscout.github.io/tr-templates//?2015-03-14T19:04:24+00:00</id>
    <link rel="enclosure" title="Nightscout Templates" 
          type="application/x-bittorrent"
          href="http://nightscout.github.io/tr-templates//"/>
