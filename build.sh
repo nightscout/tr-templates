@@ -22,7 +22,6 @@ if [[ -n $WERCKER_GIT_COMMIT && -d build ]] ; then
   cp -rv build/* $OUT
   msg="build from $(echo $WERCKER_GIT_COMMIT | cut -c 1-8)"
 
-  ;
 else
   msg="build from $(git rev-parse HEAD)"
 fi
